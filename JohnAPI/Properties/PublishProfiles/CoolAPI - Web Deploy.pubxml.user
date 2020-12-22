@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASrxCiJFRr02o4FIyxo/9MQAAAAACAAAAAAAQZgAAAAEAACAAAAAzOwk24Z5ObOZ2I3M3UM+cXdmHikOr9Vo5a1XnlqKQiQAAAAAOgAAAAAIAACAAAABEYUB122Hz/gbdY4iQJiuVdRHvTiFzJ9MybrwykJyunIAAAAAX/EV5uMdF80Mr59+G6uidtnzz3YJcSUAwlylUHP1jObJLb09oqQtKtX74z23KfLaAYYSVGaaU/S+q6k6bFeWM1Ox2dIWNIMR1IMIfAowONZqUm2D0qs35xG16rlYVTFZF55r6h1r1lUDIaKFgndxGwci7SaI0NuldsTK+sMTasUAAAAC2UE55BkxQcC7Z0tCoboL7iVKaxTeWS9ItCHMx490rJKS7qVWEfR/gyQQfzlSKenJjO/wUvpwTdQC96nZVAs4S</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:cooldatabasedbserver.database.windows.net,1433%3bInitial Catalog=CoolDatabase%3bUser Id=msanpietro%40cooldatabasedbserver%3bPassword=Dumbledore502!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="JohnAPI.Data.DataContext">
+      <Value>Data Source=tcp:cooldatabasedbserver.database.windows.net,1433%3bInitial Catalog=CoolDatabase%3bUser Id=msanpietro%40cooldatabasedbserver%3bPassword=Dumbledore502!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

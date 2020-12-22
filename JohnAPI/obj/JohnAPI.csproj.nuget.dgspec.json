@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msanp\\Desktop\\JohnAPI\\JohnAPI\\JohnAPI.csproj": {}
+    "C:\\Users\\msanp\\Desktop\\Dev\\Internship Project\\API- masterDonotEdit\\JohnAPI\\JohnAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\msanp\\Desktop\\JohnAPI\\JohnAPI\\JohnAPI.csproj": {
+    "C:\\Users\\msanp\\Desktop\\Dev\\Internship Project\\API- masterDonotEdit\\JohnAPI\\JohnAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msanp\\Desktop\\JohnAPI\\JohnAPI\\JohnAPI.csproj",
+        "projectUniqueName": "C:\\Users\\msanp\\Desktop\\Dev\\Internship Project\\API- masterDonotEdit\\JohnAPI\\JohnAPI.csproj",
         "projectName": "JohnAPI",
-        "projectPath": "C:\\Users\\msanp\\Desktop\\JohnAPI\\JohnAPI\\JohnAPI.csproj",
+        "projectPath": "C:\\Users\\msanp\\Desktop\\Dev\\Internship Project\\API- masterDonotEdit\\JohnAPI\\JohnAPI.csproj",
         "packagesPath": "C:\\Users\\msanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msanp\\Desktop\\JohnAPI\\JohnAPI\\obj\\",
+        "outputPath": "C:\\Users\\msanp\\Desktop\\Dev\\Internship Project\\API- masterDonotEdit\\JohnAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msanp\\AppData\\Roaming\\NuGet\\NuGet.Config",

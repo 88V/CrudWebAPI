@@ -25,11 +25,18 @@ namespace JohnAPI
             Configuration = configuration;
         }
 
+        readonly string _specificOrigin = "_specificOrigin";
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(o => {
+                o.AddPolicy("_specificOrigin",
+                    p => p.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+            });
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -48,6 +55,7 @@ namespace JohnAPI
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "JohnAPI v1"));
             }
 
+            app.UseCors("_specificOrigin");
             app.UseRouting();
 
             app.UseAuthorization();
